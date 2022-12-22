@@ -44,10 +44,10 @@ public class Teste {
 	            }
 	            
 	        }
-//	        for(int i = 0; i < numbers.size();i++) {
-//            	System.out.println(numbers.get(i));
-//            }
-//            System.out.println();
+	        for(int i = 0; i < numbers.size();i++) {
+            	System.out.println(numbers.get(i));
+            }
+            System.out.println();
 	        Map<Integer, Integer> contagem = new HashMap<Integer, Integer>();
 	      //Passo 1: Montar um mapa que associa o valor a quantas vezes ele pareceu
 	        for (int valor : numbers) {
