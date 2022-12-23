@@ -9,9 +9,6 @@ public class Program {
 		
 
 				
-	            for(int i = 0; i < numeros.getDezenas().size();i++) {
-	            	System.out.println(numeros.getDezenas().get(i));
-	            }
 	            
 	}
 
