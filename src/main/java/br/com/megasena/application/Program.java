@@ -2,7 +2,6 @@ package br.com.megasena.application;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -28,8 +27,11 @@ public class Program {
 					list.add(number);
 				}
 				line = br.readLine();
+				
+				
 
 			}
+			System.out.println(list.size());
 			Map<Integer, Integer> contagem = new HashMap<Integer, Integer>();
 		      //Passo 1: Montar um mapa que associa o valor a quantas vezes ele pareceu
 		        for (int valor : list) {
@@ -52,10 +54,13 @@ public class Program {
 		           System.out.printf("Número: %d   Vezes: %d", valor.getKey(), valor.getValue());
 		           exibidos++;
 		           System.out.println();
-		           if (exibidos == 60) break;
-		        }
-			
-
+		           if (exibidos == 100) break;
+		        }    
+		      
+					
+				
+		        		        
+			    
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
