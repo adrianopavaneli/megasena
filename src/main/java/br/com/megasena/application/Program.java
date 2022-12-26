@@ -26,18 +26,11 @@ public class Program {
 				}
 				line = br.readLine();
 				
-				
-
+			
 			}
 			System.out.println(list.size());
 			System.out.println("*************************");
 			
-			
-//			List<Integer> numeros = new ArrayList<>();
-//			for (int i = 0; i < 50; i++) {
-//			    numeros.add(entrada.nextInt());
-//			}
-
 			Map<Integer, List<Integer>> cont = new LinkedHashMap<>();
 			for (int i = 0; i < list.size(); i++) {
 			    int n = list.get(i);
@@ -55,34 +48,7 @@ public class Program {
 			    }
 			}
 			
-//			Map<Integer, Integer> contagem = new HashMap<Integer, Integer>();
-//		      //Passo 1: Montar um mapa que associa o valor a quantas vezes ele pareceu
-//		        for (int valor : list) {
-//		           if (!contagem.containsKey(valor)) {
-//		               contagem.put(valor, 0);
-//		           }
-//		           contagem.put(valor, contagem.get(valor)+1);
-//		        } 
-//		      //Passo 2: Criar um TreeSet que ordene pela contagem
-//		        Set<Map.Entry<Integer, Integer>> valores = new TreeSet<Map.Entry<Integer, Integer>>(
-//		           new Comparator<Map.Entry<Integer, Integer>>() {
-//		              public int compare(Map.Entry<Integer, Integer> o1, Map.Entry<Integer, Integer> o2) {
-//		                  return o1.getValue().compareTo(o2.getValue());
-//		              }
-//		           });
-//		        valores.addAll(contagem.entrySet());
-//		        
-//		        int exibidos = 0;
-//		        for (Map.Entry<Integer, Integer> valor : valores) {
-//		           System.out.printf("Número: %d   Vezes: %d", valor.getKey(), valor.getValue());
-//		           exibidos++;
-//		           System.out.println();
-//		           if (exibidos == 100) break;
-//		        }    
-//		      
-//					
-//				
-		        		        
+        
 			    
 		} catch (Exception e) {
 			e.printStackTrace();
