@@ -3,6 +3,7 @@ package br.com.megasena.application;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -43,6 +44,7 @@ public class Program {
 
 			for (Entry<Integer, List<Integer>> entry : cont.entrySet()) {
 			    List<Integer> posicoes = entry.getValue();
+			    
 			    if (posicoes.size() > 1) {
 			        System.out.printf("Número %d se repete %d vezes nas posições: %s\n", entry.getKey(), posicoes.size(), posicoes);
 			    }
