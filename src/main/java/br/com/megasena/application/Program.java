@@ -46,6 +46,7 @@ public class Program {
 			    List<Integer> posicoes = entry.getValue();
 			    
 			    if (posicoes.size() > 1) {
+			    	
 			        System.out.printf("Número %d se repete %d vezes nas posições: %s\n", entry.getKey(), posicoes.size(), posicoes);
 			    }
 			}
